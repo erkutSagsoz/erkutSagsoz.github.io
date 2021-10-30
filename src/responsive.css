@@ -1,0 +1,169 @@
+/* For Iphone5 */
+@media only screen and (width: 320px) {
+    .aboutBox {
+        font-size: 90%;
+        line-height: 1.50;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    [class*="flex-"] {
+        flex-direction: column-reverse;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .flex-column-reverse{flex-direction: column-reverse;}
+    .flex-column{flex-direction: column;}
+    .aboutBox{
+        max-height: 100%;
+    }
+    .circularPortrait{
+        /* position: relative; */
+
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        margin-top: 5px;
+    }
+    .circularPortrait img{
+        width: 100%;
+        height: auto;
+    }
+    .displayBox {
+        max-height: 100%;
+    }
+    .displayBox img {
+        border-radius: 5px 5px 0 0;
+        width: 100%;
+        height: auto;
+    }
+
+    #name{font-size: 200%;}
+    .title{font-size: 300%;}
+    .col-xs-1 {width: 8.33%;}
+    .col-xs-2 {width: 16.66%;}
+    .col-xs-3 {width: 25%;}
+    .col-xs-4 {width: 33.33%;}
+    .col-xs-5 {width: 41.66%;}
+    .col-xs-6 {width: 50%;}
+    .col-xs-7 {width: 58.33%;}
+    .col-xs-8 {width: 66.66%;}
+    .col-xs-9 {width: 75%;}
+    .col-xs-10 {width: 83.33%;}
+    .col-xs-11 {width: 91.66%;}
+    .col-xs-12 {width: 100%;}
+}
+
+
+@media only screen and (min-width: 600px) {
+/* For tablets: */
+.flex-row{flex-direction: column-reverse;}
+#name{font-size: 300%;}
+.aboutBox {
+    max-width: 100%;
+    max-height: 100%;
+}
+.circularPortrait{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 5px 5px 5px 0;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: blue;
+}
+.circularPortrait img{
+    width: 100%;
+    height: 100%;
+}
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .flex-row{flex-direction: row;}
+    .row-4 {height: 33.33%;}
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+    .flex-row{flex-direction: row;}
+    .circularPortrait{
+        display: inline-block;
+        position: relative;
+        width: 40%;
+        
+        margin: 5px 5px 5px 0;
+        overflow: hidden;
+        border-radius: 50%;
+        background-color: blue;
+    }
+    .circularPortrait img{
+        width: 100%;
+        height: 100%;
+    }
+    .row-4 {height: 33.33%;}
+    .col-l-1 {width: 8.33%;}
+    .col-l-2 {width: 16.66%;}
+    .col-l-3 {width: 25%;}
+    .col-l-4 {width: 33.33%;}
+    .col-l-5 {width: 41.66%;}
+    .col-l-6 {width: 50%;}
+    .col-l-7 {width: 58.33%;}
+    .col-l-8 {width: 66.66%;}
+    .col-l-9 {width: 75%;}
+    .col-l-10 {width: 83.33%;}
+    .col-l-11 {width: 91.66%;}
+    .col-l-12 {width: 100%;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* For desktop: */
+    .flex-row{flex-direction: row;}
+    .row-4 {height: 33.33%;}
+    .col-xl-1 {width: 8.33%;}
+    .col-xl-2 {width: 16.66%;}
+    .col-xl-3 {width: 25%;}
+    .col-xl-4 {width: 33.33%;}
+    .col-xl-5 {width: 41.66%;}
+    .col-xl-6 {width: 50%;}
+    .col-xl-7 {width: 58.33%;}
+    .col-xl-8 {width: 66.66%;}
+    .col-xl-9 {width: 75%;}
+    .col-xl-10 {width: 83.33%;}
+    .col-xl-11 {width: 91.66%;}
+    .col-xl-12 {width: 100%;}
+} 
