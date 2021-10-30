@@ -1,1 +1,0 @@
-# erkutSagsoz.github.io
